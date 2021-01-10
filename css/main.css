@@ -1,0 +1,38 @@
+
+.leftNav, 
+.rightNav {
+    border: 2px solid red;
+}
+
+.leftNav p {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.rightNav {
+    display: flex;
+    width:280px;
+    
+}
+
+.stripe{
+    background-color:powderblue;
+}
+
+.menuItems li {
+    border: 2px solid black;
+
+}
+
+.menuItems {
+    list-style: none;
+    display: flex;
+    margin: 16px;
+    padding: 0px;
+}
+
+.leftNav {
+    text-align: center;
+    float: left;
+}
+
