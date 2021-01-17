@@ -59,7 +59,7 @@
 }
 
 .menuItems li a:hover {
-    color: red;
+    color: rgb(40, 68, 112);
     font-size: 1.16vw;
     margin: 0 0 0 0.2vw;
 }
