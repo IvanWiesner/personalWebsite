@@ -1,38 +1,88 @@
-
-.leftNav, 
+.leftNav,
 .rightNav {
-    border: 2px solid red;
-}
-
-.leftNav p {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.rightNav {
-    display: flex;
-    width:280px;
-    
-}
-
-.stripe{
-    background-color:powderblue;
-}
-
-.menuItems li {
-    border: 2px solid black;
-
-}
-
-.menuItems {
-    list-style: none;
-    display: flex;
-    margin: 16px;
-    padding: 0px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .leftNav {
     text-align: center;
     float: left;
+    width: 18vw;
+    background-color: rgba(136, 124, 124, 0.5);
+    border-radius: 1vw;
+    margin: 0.8vw 0 0.8vw 1vw;
 }
 
+.leftNav h1 {
+    --color1: #000000;
+    --color2: #0aa5ff;
+    text-align: center;
+    font-size: 2vw;
+    background: repeating-linear-gradient(45deg,
+            var(--color1),
+            var(--color1) 30px,
+            var(--color2) 30px,
+            var(--color2) 60px);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: 40s linear 0s infinite move;
+}
+
+.rightNav {
+    display: flex;
+    width: 80vw;
+}
+
+.menuItems {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.menuItems li {
+    text-transform: uppercase;
+    font-size: 1vw;
+    margin: 0.65vw 0 0 1.4vw;
+    width: 14.3vw;
+    height: 5vw;
+    text-align: center;
+    line-height: 5vw;
+    background-color: rgba(136, 124, 124, 0.5);
+    border-radius: 1vw;
+}
+
+.menuItems li a {
+    text-decoration: none;
+    color: rgb(0, 98, 255);
+    margin: 0 1vw;
+    transition: font-size 0.5s, color 0.5s, margin 0.5s;
+}
+
+.menuItems li a:hover {
+    color: red;
+    font-size: 1.16vw;
+    margin: 0 0 0 0.2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes move {
+    0% {
+        background-position: 0px;
+    }
+
+    100% {
+        background-position: 1000px;
+    }
+}
