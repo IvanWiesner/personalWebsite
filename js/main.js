@@ -1,6 +1,7 @@
 
 document.body.addEventListener('load', initNavBar(), false);
-document.head.addEventListener('laod', initHead(), false);
+document.head.addEventListener('load', initHead(), false);
+document.body.addEventListener('load', initImg(), false);
 
 createWorkContent();
 
@@ -34,7 +35,15 @@ function initHead() {
         "<title>Ivan Wiesner </title>";
     document.head.innerHTML = elements;
 }
-
+function initImg() {
+    var Img = document.createElement('div');
+    Img.classList.add('Img');
+    Img.innerHTML = 
+    "<div>" +
+    "<Img src='../face.jpg'>" +
+    "</div>";
+    document.body.appendChild(Img);
+}
 function createWorkContent() {
 
     var workContainer = document.createElement('div');
@@ -58,3 +67,4 @@ function createWorkContent() {
     }
     document.body.appendChild(workContainer);
 }
+
