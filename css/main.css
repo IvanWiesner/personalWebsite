@@ -63,9 +63,26 @@
     font-size: 1.16vw;
     margin: 0 0 0 0.2vw;
 }
-img {
-    width: 15vw;
+#face {
+    width: 10vw;
 }
+#hotel {
+    width: 10vw;
+}
+#jungle {
+    width: 10vw;
+}
+#drakes {
+    width: 10vw;
+}
+#cook {
+    width: 10vw;
+}
+#stream {
+    width: 10vw;
+}
+
+
 
 
 
