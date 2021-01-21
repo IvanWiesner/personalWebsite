@@ -5,7 +5,7 @@ function initImg() {
     Img.classList.add('Img');
     Img.innerHTML = 
     "<div>" +
-    "<Img src='../hotel.jpg' id='hotel'>" +
+    "<Img src='../images../hotel.PNG' id='hotel'>" +
     "<Img src='../face.jpg' id='face'>" +
     "<Img src='../cook.PNG' id='cook'>" +
     "<Img src='../jungle.PNG' id='jungle'>" +
@@ -14,3 +14,4 @@ function initImg() {
     "</div>";
     document.body.appendChild(Img);
 }
+document.getElementById("hotel").src = Project
