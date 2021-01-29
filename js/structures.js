@@ -21,7 +21,12 @@ var allWorkContent = [
         title: 'Streamer',
         dates: 'January 2019 - October 2020',
         description: 'Streamed part time while I went to school instead of working because it was more enjoyable to do.',
-        img: 'stream.PNG'
+        img: ''
     }
 ];
-
+function GFG_Fun() { 
+    var img = document.createElement('img'); 
+    img.src = "../images../professional../cook.PNG"
+    document.getElementById('body').appendChild(img); 
+    down.innerHTML = "Image Element Added.";  
+}  

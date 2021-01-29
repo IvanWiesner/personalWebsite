@@ -15,3 +15,4 @@ function initImg() {
     document.body.appendChild(Img);
 }
 document.getElementById("hotel").src = Project
+
