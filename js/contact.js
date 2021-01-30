@@ -15,3 +15,10 @@ function createWorkContent() {
                 '<img src="' + allWorkContent[i].img + '" />' + 
             '</div>';
             var allWorkContent
+var allWorkContent = [
+    title: 'Contacts',
+    descriptions: '(720) 648-7698',
+    descriptions: 'ivanwiesner@gmail.com',
+    
+        
+]
