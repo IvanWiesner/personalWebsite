@@ -22,7 +22,7 @@ function createWorkContent() {
                     dates attended: '2018-2020'
                     schools: 'University of Colorado Colorado Springs and Front Range Community College'
                 },
-                    band: ''
-                    deca: ''
-                    achievements: ''
+                    band: 'Was in marching band in highschool in leadership positions. Won the state competiton two times and even marched in the tournament of Roses parade.'
+                    deca: 'Business club outside of school where competitions where held based off pitching ideas and going to other schools to compete. Events were at hotels and made it to the finals with my team.'
+                    
             };

@@ -19,6 +19,8 @@ var allWorkContent = [
     title: 'Contacts',
     descriptions: '(720) 648-7698',
     descriptions: 'ivanwiesner@gmail.com',
+    descriptions: '103 Summit Way Eire, CO',
+]
     
         
 ]
