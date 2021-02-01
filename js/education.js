@@ -10,7 +10,6 @@ var schoolContent = [{
         and made it to the finals with my team.'
     }
 ];
-
 function initSchoolContent() {
 
     for (var i = 0; i < schoolContent.length; i++) {
