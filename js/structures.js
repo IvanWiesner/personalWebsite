@@ -1,5 +1,4 @@
-var allWorkContent = [
-    {
+var allWorkContent = [{
         title: 'Banquet Employee',
         dates: 'October 2014 - May 2015',
         description: 'Responsibilities included setting up projectors/ tech equipment, customer service to solve problems, and recruit people to join the staff. Very capable in addressing stressful situations calmly and dealing with difficult customers. Assisted in various tasks in opening for new events, while being collaborative and compatible with many areas including management. Personality was highly effective in increasing sales and customer retention while successfully managing full time schooling hours.',
@@ -24,9 +23,26 @@ var allWorkContent = [
         img: ''
     }
 ];
-function GFG_Fun() { 
-    var img = document.createElement('img'); 
-    img.src = "../images../professional../cook.PNG"
-    document.getElementById('body').appendChild(img); 
-    down.innerHTML = "Image Element Added.";  
-}  
+
+function createWorkContent() {
+
+    var workContainer = document.createElement('div');
+    workContainer.id = 'home-Content';
+
+    for (var i = 0; i < allWorkContent.length; i++) {
+
+        var workElement = document.createElement('div');
+        workElement.classList.add('work-element');
+
+        workElement.innerHTML =
+            '<div class="left-work-element">' +
+            '<h2>' + allWorkContent[i].schooling + '</h2>' +
+            '<p>' + allWorkContent[i].extracurricular + '</p>' +
+            '</div>' +
+            '<div class="right-work-element">' +
+            '<img src="' + allWorkContent[i].img + '" />' +
+            '</div>';
+    }
+}
+
+document.body.addEventListener('load', initHead(), false);

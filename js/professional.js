@@ -14,11 +14,14 @@ function initImg() {
     "</div>";
     document.body.appendChild(Img);
 }
+
 document.getElementById("hotel").src = Project
+
 function initImg() {
     var Img = document.createElement('div');
     Img.classList.add('Img');
     Img.innerHTML = 
     "<div>" +
-    "<img src='../images../cook.PNG' id='hotel>" +
+    "<img src='../images/cook.PNG' id='hotel>" +
     document.body.appendChild(Img);
+}

@@ -1,26 +1,29 @@
-function createWorkContent() {
+var contactArray = [
+{
+    title: "Cell",
+    content: '(720) 648-7698',
+},
+{
+    title: "Email",
+    content: 'Ivanwiesner@gmail.com',
+},
+{
+    title: 'Mailing Adress',
+    content: '103 Summit Way, Erie CO',
+}
+];
 
-    var workContainer = document.createElement('div');
-    workContainer.id = 'home-Content';
+function initContactPage() {
 
-        for (var i = 0; i < allWorkContent.length; i++) { 
-            var workElement = document.createElement('div');
-        workElement.classList.add('work-element');
-        workElement.innerHTML = 
-        '<div class="left-work-element">' +
-                '<h2>' + allWorkContent[i].schooling + '</h2>' +
-                '<p>' + allWorkContent[i].extracurricular + '</p>' + 
-            '</div>' + 
-            '<div class="right-work-element">' + 
-                '<img src="' + allWorkContent[i].img + '" />' + 
-            '</div>';
-            var allWorkContent
-var allWorkContent = [
-    title: 'Contacts',
-    descriptions: '(720) 648-7698',
-    descriptions: 'ivanwiesner@gmail.com',
-    descriptions: '103 Summit Way Eire, CO',
-]
-    
-        
-]
+    for (var i = 0; i < contactArray.length; i = i + 1) {
+
+        var element = document.createElement('div');
+        element.innerHTML = 
+            '<h2>' + contactArray[i].title + '</h2>' +
+            '<p>' + contactArray[i].content + '</p>';    
+
+        document.body.appendChild(element);
+    }
+}
+
+document.body.addEventListener('load', initContactPage(), false);
