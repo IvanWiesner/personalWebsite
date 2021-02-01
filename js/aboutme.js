@@ -2,7 +2,7 @@
 var aboutMe = [
     {
         title: "Video games",
-        image: "",
+        image: "../professional/jungle.PNG",
         content: 'The two games I mainly play are League of Legends and Old School Runescape. Yes the MMORPG that everyone played on Miniclip when they were little is still a game people play today. I run a clan on the old school server version of it and play with buddies of mine and do events and such when I have free time.Been playing since season 3, my freshman year of highschool. Started playing with my buddy Matthew and then moved onto playing with more friends throughout the years. Even tried to go pro at one point then decided against it later in life. Highest rank has been Diamond 1 and my goal is masters this season.',
     },
     {

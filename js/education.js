@@ -1,20 +1,13 @@
 var schoolContent = [{
-        title: "classes took",
-        date: '2018-2020',
-        content: 'Business, maths, english, science, emt',
+        title: "Education Levels",
+        content: 'Highschool diploma and Associates in general education. Highschool class of 2016 froem Legacy highschool. Associates from University of Colorado Colorado Springs and Front range COmmunity College.',
     },
     {
-        title: "Legacy Band",
-        date: '2018-2020',
+        title: "Extraciricular",
         content: 'Was in marching band in highschool in leadership positions. Won the \
-        state competiton two times and even marched in the tournament of Roses parade.',
-    },
-    {
-        title: 'DECA',
-        date: '2018-2020',
-        content: 'Business club outside of school where competitions where held based off \
-            pitching ideas and going to other schools to compete. Events were at hotels \
-            and made it to the finals with my team.'
+        state competiton two times and even marched in the tournament of Roses parade. Business club outside of school where competitions where held based off \
+        pitching ideas and going to other schools to compete. Events were at hotels \
+        and made it to the finals with my team.'
     }
 ];
 
@@ -24,7 +17,6 @@ function initSchoolContent() {
 
         var element = document.createElement('div');
         element.innerHTML = '<h2>' + schoolContent[i].title + '</h2>' +
-            '<p>' + schoolContent[i].date + '</p>' +
             '<p>' + schoolContent[i].content + '</p>';
 
         document.body.appendChild(element);
