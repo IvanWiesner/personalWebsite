@@ -72,7 +72,7 @@
 #jungle {
     width: 10vw;
 }
-#drakes {
+#drake {
     width: 10vw;
 }
 #cook {
@@ -82,17 +82,23 @@
     width: 10vw;
 }
 #piano {
-    width: 35vw;
+    width: 18vw;
 }
 #poppy {
-    width: 35vw;
+    width: 18vw;
 }
 #cooking {
-    width: 35vw;
+    width: 18vw;
 }
-
-
-
+#cell {
+    width: 13vw;
+}
+#email {
+    width: 18vw;
+}
+#adress {
+    width: 18vw;
+}
 
 
 

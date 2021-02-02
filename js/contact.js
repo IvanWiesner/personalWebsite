@@ -1,29 +1,41 @@
 var contactArray = [
 {
     title: "Cell",
+    image: "../pics/contact/cell.jpg id='cell' ",
     content: '(720) 648-7698',
 },
 {
     title: "Email",
+    image: "../pics/contact/mail.jpg id='email' ",
     content: 'Ivanwiesner@gmail.com',
 },
 {
     title: 'Mailing Adress',
+    image: "../pics/contact/home.jpg id='adress' ",
     content: '103 Summit Way, Erie CO',
 }
 ];
 
 function initContactPage() {
 
-    for (var i = 0; i < contactArray.length; i = i + 1) {
+    var allElements = document.createElement('div');
+    allElements.classList.add('contactiInfo');
+    
+    var header = document.createElement('h3');
+    header.innerHTML = 'contactInfo';
+    header.id = 'contact-Info';
+    allElements.appendChild(header);
+
+    for (var i = 0; i < contactArray.length; i++) {
 
         var element = document.createElement('div');
-        element.innerHTML = 
-            '<h2>' + contactArray[i].title + '</h2>' +
+        element.classList.add('contact-Info');
+        element.innerHTML = '<h2>' + contactArray[i].title + '</h2>' +
+            '<img src=' + contactArray[i].image + '>' +
             '<p>' + contactArray[i].content + '</p>';    
-
-        document.body.appendChild(element);
+            allElements.appendChild(element);
     }
+    document.body.appendChild(allElements);
 }
 
 document.body.addEventListener('load', initContactPage(), false);

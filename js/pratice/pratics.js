@@ -22,3 +22,15 @@ console.log('Hello World')
     //3
     //4
     //5
+document.createElement //dynamically create html elements 
+let newElement = document.createElement('div') ;
+
+console.log(newElement)
+    //<div></div>
+console.dir(newElement)
+    //see all the properties of this object in f12
+let newElement = document.createElement('input') ;
+    //making it into an import element
+document.body.appendChild(newElement);
+    //adds this element to the body tag
+    

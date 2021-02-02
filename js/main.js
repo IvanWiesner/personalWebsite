@@ -14,7 +14,6 @@ function initNavBar() {
         "</div>" +
         "<div class='rightNav'>" +
         "<ul class='menuItems'>" +
-        "<li><a href='./index.html'>Home</a></li>" +
         "<li><a href='./education.html'>Education</a></li>" +
         "<li><a href='./professional.html'>Professional</a></li>" +
         "<li><a href='./contact.html'>Contact</a></li>" +
