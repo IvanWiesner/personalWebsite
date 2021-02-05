@@ -33,8 +33,8 @@ function initprofessional() {
 var allElements = document.createElement('div');
 allElements.classList.add('jobs');
 
-var header = document.createElement('h3');
-header.innerHTML = 'jobs';
+var header = document.createElement('h1');
+header.innerHTML = 'Jobs';
 header.id = 'jobs_id';
 allElements.appendChild(header);
 

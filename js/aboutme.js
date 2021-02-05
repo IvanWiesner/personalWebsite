@@ -3,7 +3,7 @@ var aboutMe = [
     {
         title: "Video games",
         image: "../pics/about/jungle.PNG id='poppy'",
-        content: 'The two games I mainly play are League of Legends and Old School Runescape. Yes the MMORPG that everyone played on Miniclip when they were little is still a game people play today. I run a clan on the old school server version of it and play with buddies of mine and do events and such when I have free time.Been playing since season 3, my freshman year of highschool. Started playing with my buddy Matthew and then moved onto playing with more friends throughout the years. Even tried to go pro at one point then decided against it later in life. Highest rank has been Diamond 1 and my goal is masters this season.',
+        content: 'The two games I mainly play are League of Legends and Old School Runescape. Yes, the MMORPG that everyone played on Miniclip when they were little is still a game people play today. I run a clan on the old school server version of it and play with buddies of mine and do events and such when I have free time. I have been playing League of Legends since season 3 (2012), my freshman year of highschool. Started playing with my buddy Matthew and then moved onto playing with more friends throughout the years. Even tried to go pro at one point then decided against it later in life. Highest rank has been Diamond 1 and my goal is masters this season.',
     },
     {
         title: "Piano",
@@ -20,9 +20,9 @@ var aboutMe = [
 function initAboutMe() {
 
     var allElements = document.createElement('div');
-    allElements.classList.add('hobbies');
+    allElements.classList.add('Hobbies');
     
-    var header = document.createElement('h3');
+    var header = document.createElement('h1');
     header.innerHTML = 'Hobbies';
     header.id = 'hobbie_header';
     allElements.appendChild(header);

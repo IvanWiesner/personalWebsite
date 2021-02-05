@@ -16,8 +16,8 @@ function initSchoolContent() {
     var allElements = document.createElement('div');
     allElements.classList.add('schoolContent');
     
-    var header = document.createElement('h3');
-    header.innerHTML = 'schoolContent';
+    var header = document.createElement('h1');
+    header.innerHTML = 'School Content';
     header.id = 'school-Content';
     allElements.appendChild(header);
 

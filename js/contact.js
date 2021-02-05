@@ -21,8 +21,8 @@ function initContactPage() {
     var allElements = document.createElement('div');
     allElements.classList.add('contactiInfo');
     
-    var header = document.createElement('h3');
-    header.innerHTML = 'contactInfo';
+    var header = document.createElement('h1');
+    header.innerHTML = 'Contact Info';
     header.id = 'contact-Info';
     allElements.appendChild(header);
 
