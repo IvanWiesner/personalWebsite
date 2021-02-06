@@ -121,7 +121,9 @@
     text-align: center; 
     border-bottom:rgb(150, 150, 150) solid 3px;
 }
-
+#video {
+    color: salmon;
+}
 
 
 
