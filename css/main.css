@@ -1,8 +1,11 @@
 .leftNav,
 .rightNav {
     font-family: 'Press Start 2P', cursive;
-}
 
+}
+.nav {
+    padding-bottom: 10px;
+}
 .leftNav {
     text-align: center;
     float: left;
@@ -29,14 +32,13 @@
 }
 
 .rightNav {
-    display: flex;
+    display: inline;
     width: 80vw;
 }
-
 .menuItems {
     list-style: none;
     display: flex;
-    padding: 0;
+    padding: 1vw;
 }
 
 .menuItems li {
