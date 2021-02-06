@@ -34,7 +34,7 @@ var allElements = document.createElement('div');
 allElements.classList.add('jobs');
 
 var header = document.createElement('h1');
-header.innerHTML = 'Jobs';
+header.innerHTML = 'Work History';
 header.id = 'jobs_id';
 allElements.appendChild(header);
 

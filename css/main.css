@@ -64,49 +64,46 @@
     margin: 0 0 0 0.2vw;
 }
 #face {
-    width: 10vw;
+    width: 25vw;
 }
 #hotel {
-    width: 15vw;
+    width: 30vw;
 }
 #jungle {
     width: 10vw;
 }
 #drake {
-    width: 10vw;
+    width: 30vw;
 }
 #cook {
-    width: 15vw;
+    width: 30vw;
 }
 #stream {
-    width: 20vw;
+    width: 30vw;
 }
 #piano {
-    width: 18vw;
+    width: 30vw;
 }
 #poppy {
-    width: 18vw;
+    width: 30vw;
 }
 #cooking {
-    width: 18vw;
+    width: 30vw;
 }
 #cell {
-    width: 10vw;
+    width: 20vw;
 }
 #email {
-    width: 15vw;
+    width: 30vw;
 }
 #adress {
-    width: 14vw;
+    width: 25vw;
 }
 #band {
-    width: 20vw;
+    width: 30vw;
 }
 #school {
-    width: 20vw;
-}
-#face {
-    width: 40vw;
+    width: 30vw;
 }
 
 #jobs_id {
@@ -139,10 +136,6 @@
 }
 #video {
     color: salmon;
-}
-#face
-{
-    width: 10vw;
 }
 
 
