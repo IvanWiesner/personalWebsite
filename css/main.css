@@ -136,7 +136,10 @@
 #video {
     color: salmon;
 }
-
+#face
+{
+    width: 10vw;
+}
 
 
 
@@ -149,3 +152,13 @@
         background-position: 1000px;
     }
 }
+body{
+    text-align:center;
+    background:#dfdfdf;
+  }
+  h2{
+    text-transform:uppercase;
+    font-size:72px;
+    font-family:'Verdana';
+    padding:30px;
+  }
