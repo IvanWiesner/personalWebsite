@@ -107,19 +107,31 @@
 }
 #jobs_id {
     text-align: center;
-    border-bottom:rgb(150, 150, 150) solid 3px;
+    border-bottom:rgb(40, 68, 112) solid 5px;
+    color: blue;
+    background-color: rgb(190, 188, 188);
+    height: 4vw;
 }
 #school-Content {
     text-align: center; 
-    border-bottom:rgb(150, 150, 150) solid 3px;
+    border-bottom:rgb(40, 68, 112) solid 5px;
+    color: blue;
+    background-color: rgb(190, 188, 188);
+    height: 4vw;
 }
 #contact-Info {
     text-align: center; 
-    border-bottom:rgb(150, 150, 150) solid 3px;
+    border-bottom:rgb(40, 68, 112) solid 5px;
+    color: blue;
+    background-color: rgb(190, 188, 188);
+    height: 4vw;
 }
 #hobbie_header {
     text-align: center; 
-    border-bottom:rgb(150, 150, 150) solid 3px;
+    border-bottom:rgb(40, 68, 112) solid 5px;
+    color: blue;
+    background-color: rgb(190, 188, 188);
+    height: 4vw;
 }
 #video {
     color: salmon;
