@@ -31,7 +31,7 @@ function initAboutMe() {
         
         var element = document.createElement('div');
         element.classList.add('hobbie-element');
-        element.innerHTML = '<h2>' + aboutMe[i].title + '</h2>' +
+        element.innerHTML = "<h2 id='hobbies_title'>" + aboutMe[i].title + "</h2>" +
         '<img src=' + aboutMe[i].image + '>' +
         '<p>' + aboutMe[i].content + '</p>';
         allElements.appendChild(element);
