@@ -111,7 +111,10 @@
     width: 30vw;
     float: right;
 }
-
+#code {
+    width: 20vw;
+    float: right;
+}
 #jobs_id {
     text-align: center;
     border-bottom:rgb(40, 68, 112) solid 5px;

@@ -4,13 +4,18 @@ var schoolContent = [{
         content: 'Highschool diploma and Associates in general education. Highschool class of 2016 froem Legacy highschool. Associates from University of Colorado Colorado Springs and Front range COmmunity College.',
     },
     {
+        title: "Code Academy",
+        image: "../pics/education/codeacademy.PNG id='code' ",
+        content: "Completion of the Javascript, CSS, and HTML courses on the pro version."
+    },
+    {
         title: "Extraciricular",
         image: "../pics/education/band.jpg id='band' ",
         content: 'Was in marching band in highschool in leadership positions. Won the \
         state competiton two times and even marched in the tournament of Roses parade. Business club outside of school where competitions where held based off \
         pitching ideas and going to other schools to compete. Events were at hotels \
         and made it to the finals with my team.'
-    }
+    },
 ];
 function initSchoolContent() {
     var allElements = document.createElement('div');
