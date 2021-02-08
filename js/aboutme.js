@@ -24,8 +24,8 @@ var aboutMe = [
 
 function initAboutMe() {
 
-    var allElements = document.createElement('div');
-    allElements.classList.add('Hobbies');
+    var allElements = document.createElement('div'); // creating html element <div></div>
+    allElements.classList.add('Hobbies');           // adding class of 'hobbies' to newley created div
     
     var header = document.createElement('h1');
     header.innerHTML = 'About Ivan';
