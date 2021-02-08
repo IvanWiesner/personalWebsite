@@ -33,4 +33,23 @@ let newElement = document.createElement('input') ;
     //making it into an import element
 document.body.appendChild(newElement);
     //adds this element to the body tag
-    
+<style>
+.wrapper{
+    display:grid;
+    grid-teplate-colums: 40% 30% 40%;
+    //splitting it into 3 collumns
+}
+.wrapper > div{
+    background:#eee;
+    padding:1em;
+}
+.wrapper > div:nth-child(odd) {
+    background:#ddd;
+}
+</style>
+    <div class="wrapper">
+    </div>
+    text
+    </div>
+</div>
+//grid layout
