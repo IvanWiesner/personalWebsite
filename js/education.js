@@ -1,7 +1,7 @@
 var schoolContent = [{
         title: "Education Levels",
         image: "../pics/education/uccs.jpg id='school' ",
-        content: 'Highschool diploma and Associates in general education. Highschool class of 2016 froem Legacy highschool. Associates from University of Colorado Colorado Springs and Front range COmmunity College.',
+        content: 'Highschool diploma and Associates in general education. Highschool class of 2016 froem Legacy highschool. Associates from University of Colorado Colorado Springs and Front range Community College.',
     },
     {
         title: "Code Academy",
