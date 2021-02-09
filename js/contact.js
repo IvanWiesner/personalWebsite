@@ -31,7 +31,7 @@ function initContactPage() {
         var element = document.createElement('div');
         element.classList.add('contact-Info');
         element.innerHTML = '<h2>' + contactArray[i].title + '</h2>' +
-            '<img src=' + contactArray[i].image + '>' +
+        '<img src=' + schoolContent[i].image + ' id=' + schoolContent[i].id + '>' + +
             '<p>' + contactArray[i].content + '</p>';    
             allElements.appendChild(element);
     }

@@ -43,7 +43,7 @@ for (var i = 0; i < professional.length; i++) {
     var element = document.createElement('div');
     element.classList.add('professional-element');
     element.innerHTML = '<h2>' + professional[i].title + '</h2>' +
-    '<img src=' + professional[i].image + '>' + 
+    '<img src=' + schoolContent[i].image + ' id=' + schoolContent[i].id + '>' + + 
     '<p>' + professional[i].dates + '</p>' +
     '<p>' + professional[i].content + '</p>';
     allElements.appendChild(element);
