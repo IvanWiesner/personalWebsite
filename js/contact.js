@@ -1,32 +1,34 @@
-var contactArray = [
-{
-    title: "Cell",
-    titleId: "",
-    image: "../pics/contact/cell.jpg id='cell' ",
-    id: "",
-    content: '(720) 648-7698',
-},
-{
-    title: "Email",
-    titleId: "",
-    image: "../pics/contact/mail.jpg id='email' ",
-    id: "",
-    content: 'Ivanwiesner@gmail.com',
-},
-{
-    title: 'Mailing Adress',
-    titleId: "",
-    image: "../pics/contact/home.jpg id='adress' ",
-    id: "",
-    content: '103 Summit Way, Erie CO',
-}
+var contactArray = [{
+        title: "Cell",
+        titleId: "cellt",
+        image: "../pics/contact/cell.jpg",
+        id: "cell",
+        content: '(720) 648-7698',
+        contentId: "cellnumber",
+    },
+    {
+        title: "Email",
+        titleId: "emailt",
+        image: "../pics/contact/mail.jpg",
+        id: "email",
+        content: 'Ivanwiesner@gmail.com',
+        contentId: "emailc",
+    },
+    {
+        title: 'Mailing Adress',
+        titleId: "mailt",
+        image: "../pics/contact/home.jpg",
+        id: "adress",
+        content: '103 Summit Way, Erie CO',
+        contentId: "mailc",
+    }
 ];
 
 function initContactPage() {
 
     var allElements = document.createElement('div');
     allElements.classList.add('contactiInfo');
-    
+
     var header = document.createElement('h1');
     header.innerHTML = 'Contact Info';
     header.id = 'contact-Info';
@@ -36,10 +38,10 @@ function initContactPage() {
 
         var element = document.createElement('div');
         element.classList.add('contact-Info');
-        element.innerHTML = '<h2>' + contactArray[i].title + '</h2>' +
-        '<img src=' + schoolContent[i].image + ' id=' + schoolContent[i].id + '>' + +
-            '<p>' + contactArray[i].content + '</p>';    
-            allElements.appendChild(element);
+        element.innerHTML = '<h2 id=' + contactArray[i].id + '>' + contactArray[i].title + '</h2>' +
+            '<img src=' + contactArray[i].image + ' id=' + contactArray[i].id + '>' +
+            '<p id=' + contactArray[i].id + '>' + contactArray[i].content + '</p>';
+        allElements.appendChild(element);
     }
     document.body.appendChild(allElements);
 }
