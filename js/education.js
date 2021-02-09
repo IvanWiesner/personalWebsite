@@ -43,7 +43,8 @@ function initSchoolContent() {
         element.innerHTML = '<h2>' + schoolContent[i].title + '</h2>' +
         element.innerHTML = '<h2>' + schoolContent[i].title + ' id=' + schoolContent[i].id + '>' +
         '<img src=' + schoolContent[i].image + ' id=' + schoolContent[i].id + '>' + 
-            '<p>' + schoolContent[i].content + '</p>';
+            '<p>' + schoolContent[i].content + '</p>' +
+            '<p>' + schoolContent[i].content + ' id=' + schoolContent[i].id + '</p>' ;
 
         // string interpolation javascript 
         // dynamically creating html elements in javasctipt
