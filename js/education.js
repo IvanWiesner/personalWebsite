@@ -5,13 +5,15 @@ var schoolContent = [
         image: "../pics/education/uccs.jpg",
         id: "school", 
         content: 'Highschool diploma and Associates in general education. Highschool class of 2016 froem Legacy highschool. Associates from University of Colorado Colorado Springs and Front range Community College.',
+        contentId: "",
     },
     {
         title: "Code Academy",
         titleId: "academy",
         image: "../pics/education/codeacademy.PNG",
         id: "code",
-        content: "Completion of the Javascript, CSS, and HTML courses on the pro version."
+        content: "Completion of the Javascript, CSS, and HTML courses on the pro version.",
+        contentId: "",
     },
     {
         title: "Extraciricular",
@@ -21,7 +23,8 @@ var schoolContent = [
         content: 'Was in marching band in highschool in leadership positions. Won the \
         state competiton two times and even marched in the tournament of Roses parade. Business club outside of school where competitions where held based off \
         pitching ideas and going to other schools to compete. Events were at hotels \
-        and made it to the finals with my team.'
+        and made it to the finals with my team.',
+        contentId: "",
     },
 ];
 
