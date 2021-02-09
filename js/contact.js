@@ -1,17 +1,23 @@
 var contactArray = [
 {
     title: "Cell",
+    titleId: "",
     image: "../pics/contact/cell.jpg id='cell' ",
+    id: "",
     content: '(720) 648-7698',
 },
 {
     title: "Email",
+    titleId: "",
     image: "../pics/contact/mail.jpg id='email' ",
+    id: "",
     content: 'Ivanwiesner@gmail.com',
 },
 {
     title: 'Mailing Adress',
+    titleId: "",
     image: "../pics/contact/home.jpg id='adress' ",
+    id: "",
     content: '103 Summit Way, Erie CO',
 }
 ];
