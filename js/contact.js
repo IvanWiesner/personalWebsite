@@ -1,26 +1,26 @@
 var contactArray = [{
         title: "Cell",
-        titleId: "cellt",
+        titleid: "cellt",
         image: "../pics/contact/cell.jpg",
         id: "cell",
         content: '(720) 648-7698',
-        contentId: "cellnumber",
+        contentid: "cellnumber",
     },
     {
         title: "Email",
-        titleId: "emailt",
+        titleid: "emailt",
         image: "../pics/contact/mail.jpg",
         id: "email",
         content: 'Ivanwiesner@gmail.com',
-        contentId: "emailc",
+        contentid: "emailc",
     },
     {
         title: 'Mailing Adress',
-        titleId: "mailt",
+        titleid: "mailt",
         image: "../pics/contact/home.jpg",
         id: "adress",
         content: '103 Summit Way, Erie CO',
-        contentId: "mailc",
+        contentid: "mailc",
     }
 ];
 
@@ -38,9 +38,9 @@ function initContactPage() {
 
         var element = document.createElement('div');
         element.classList.add('contact-Info');
-        element.innerHTML = '<h2 id=' + contactArray[i].id + '>' + contactArray[i].title + '</h2>' +
+        element.innerHTML = '<h2 id=' + contactArray[i].titleid + '>' + contactArray[i].title + '</h2>' +
             '<img src=' + contactArray[i].image + ' id=' + contactArray[i].id + '>' +
-            '<p id=' + contactArray[i].id + '>' + contactArray[i].content + '</p>';
+            '<p id=' + contactArray[i].contentid + '>' + contactArray[i].content + '</p>';
         allElements.appendChild(element);
     }
     document.body.appendChild(allElements);

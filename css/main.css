@@ -69,9 +69,6 @@
     width: 25vw;
     float: right;
 }
-#hotel {
-    width: 30vw;
-}
 #jungle {
     width: 10vw;
 }
@@ -149,7 +146,12 @@
 #video {
     color: salmon;
 }
-
+#school {
+    float: left;
+}
+p #schoole {
+    color: blue;
+}
 
 
 @keyframes move {
@@ -161,14 +163,33 @@
         background-position: 1000px;
     }
 }
-body{
-    text-align:left;
-    background:#dfdfdf;
-  }
 h2{
     text-transform:uppercase;
     font-size:30px;
     font-family:'Verdana';
     padding:40px;
+    text-decoration: underline;
 }
-
+#banquet {
+    text-align: center;
+}
+#banqc {
+    margin-right: 70vw;
+    margin-top: 1vw;
+}
+#hotel {
+    width: 30vw;
+    padding-left: 50vw;
+    margin-right: 1vw;
+    content: 1vw;
+    margin-left: 1vw;
+}
+#line {
+    text-align: center;
+}
+#denver {
+    text-align: center;
+}
+#streamer {
+    text-align: center;
+}
