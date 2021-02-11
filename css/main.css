@@ -65,131 +65,329 @@
     font-size: 1.16vw;
     margin: 0 0 0 0.2vw;
 }
-#face {
-    width: 25vw;
-    float: right;
-}
-#jungle {
-    width: 10vw;
-}
-#drake {
-    width: 30vw;
-}
-#cook {
-    width: 30vw;
-}
-#stream {
-    width: 30vw;
-}
-#piano {
-    width: 30vw;
-    float: right;
-}
-#poppy {
-    width: 30vw;
-}
-#cooking {
-    width: 30vw;
-}
-#cell {
-    width: 20vw;
-}
-#email {
-    width: 30vw;
-}
-#adress {
-    width: 25vw;
-}
-#band {
-    width: 30vw;
-    float: right;
-    height: 26vh;
-}
-#school {
-    width: 30vw;
-    float: right;
-    height: 26vh;
-}
-#code {
-    width: 30vw;
-    float: middle;
-    height: 26vh;
-}
 #jobs_id {
     text-align: center;
-    border-bottom:rgb(40, 68, 112) solid 5px;
+    border-bottom:rgb(40, 68, 112) solid .5vw;
     color: blue;
     background-color: rgb(190, 188, 188);
     height: 4vw;
 }
 #school-Content {
     text-align: center; 
-    border-bottom:rgb(40, 68, 112) solid 5px;
+    border-bottom:rgb(40, 68, 112) solid .5vw;
     color: blue;
     background-color: rgb(190, 188, 188);
     height: 4vw;
 }
 #contact-Info {
     text-align: center; 
-    border-bottom:rgb(40, 68, 112) solid 5px;
+    border-bottom:rgb(40, 68, 112) solid .5vw;
     color: blue;
     background-color: rgb(190, 188, 188);
     height: 4vw;
 }
 #about_header {
     text-align: center; 
-    border-bottom:rgb(40, 68, 112) solid 5px;
+    border-bottom:rgb(40, 68, 112) solid .5vw;
     color: blue;
     background-color: rgb(190, 188, 188);
     height: 4vw;
 }
-#video {
-    color: salmon;
-}
-#school {
-    float: left;
-}
-p #schoole {
-    color: blue;
-}
-
-
 @keyframes move {
     0% {
         background-position: 0px;
     }
 
     100% {
-        background-position: 1000px;
+        background-position: 100vw;
     }
 }
 h2{
     text-transform:uppercase;
-    font-size:30px;
+    font-size:3vw;
     font-family:'Verdana';
-    padding:40px;
+    padding:1vw;
     text-decoration: underline;
 }
 #banquet {
     text-align: center;
 }
-#banqc {
-    margin-right: 70vw;
-    margin-top: 1vw;
+#banqp {
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(127, 155, 29);
+    font-weight: bolder;
 }
 #hotel {
     width: 30vw;
-    padding-left: 50vw;
+    padding-right: 1vw;
     margin-right: 1vw;
-    content: 1vw;
-    margin-left: 1vw;
+    margin-left:55vw;
+    margin-top: 2vw;
+}
+#banqc {
+    margin-right: 69vw;
+    margin-top: -18vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(143, 92, 63); 
+    margin-left: 25vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(82, 82, 82);
 }
 #line {
     text-align: center;
+    margin-top: 5vw;
+}
+#cookp {
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(127, 155, 29);
+    font-weight: bolder;
+}
+#cook {
+    width: 30vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:55vw;
+    margin-top: .1vw;
+}
+#cookc {
+    margin-right: 69vw;
+    margin-top: -11vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(143, 92, 63); 
+    margin-left: 25vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(82, 82, 82);
 }
 #denver {
     text-align: center;
+    margin-top: 5vw;
+}
+#denverp {
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(127, 155, 29);
+    font-weight: bolder;
+}
+#drake {
+    width: 30vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:55vw;
+    margin-top: .1vw;
+    height: 23vw;
+}
+#denverc {
+    margin-right: 69vw;
+    margin-top: -17vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(143, 92, 63); 
+    margin-left: 25vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(82, 82, 82);
 }
 #streamer {
+    margin-top: 12vw;
     text-align: center;
+}
+#streamp {
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(127, 155, 29);
+    font-weight: bolder;
+}
+#stream {
+    width: 30vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:55vw;
+    margin-top: .1vw;
+    height: 10vw;
+    margin-bottom: 5vw;
+}
+#streamc {
+    margin-right: 69vw;
+    margin-top: -14vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(143, 92, 63); 
+    margin-left: 25vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(82, 82, 82);
+}
+#education {
+    margin-top: 2vw;
+    text-align: center;
+}
+#school {
+    width: 30vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:55vw;
+    margin-top: .1vw;
+    height: 20vw;
+    margin-bottom: 5vw;
+}
+#schoole {
+    margin-right: 69vw;
+    margin-top: -20vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(107, 79, 98); 
+    margin-left: 25vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(32, 0, 173);
+}
+#academy {
+    margin-top: 10vw;
+    text-align: center;
+}
+#code {
+    width: 30vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:55vw;
+    margin-top: 1vw;
+    height: 20vw;
+    margin-bottom: 5vw;
+}
+#codes {
+    margin-right: 69vw;
+    margin-top: -20vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(107, 79, 98); 
+    margin-left: 25vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(32, 0, 173);
+}
+#extra {
+    margin-top: 15vw;
+    text-align: center;
+}
+#band {
+    width: 30vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:55vw;
+    margin-top: 1vw;
+    height: 20vw;
+    margin-bottom: 5vw;
+}
+#extras {
+    margin-right: 69vw;
+    margin-top: -23vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(107, 79, 98); 
+    margin-left: 25vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(32, 0, 173);
+}
+#ivant{
+    margin-top: 2vw;
+    text-align: center;
+}
+#face {
+    width: 22vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:70vw;
+    margin-top: 1vw;
+    height: 22vw;
+    margin-bottom: 5vw;
+}
+#ivanc {
+    margin-right: 69vw;
+    margin-top: -19vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(107, 79, 98); 
+    margin-left: 50vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(32, 0, 173); 
+}
+#videot {
+    margin-top: 10vw;
+    text-align: center;
+}
+#poppy {
+    width: 22vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:70vw;
+    margin-top: 8vw;
+    height: 22vw;
+    margin-bottom: 5vw;
+}
+#viedoc {
+    margin-right: 69vw;
+    margin-top: -30vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(107, 79, 98); 
+    margin-left: 50vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(32, 0, 173); 
+}
+#pianot {
+    margin-top: 10vw;
+    text-align: center;
+}
+#piano {
+    width: 22vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:70vw;
+    margin-top: 1vw;
+    height: 22vw;
+    margin-bottom: 5vw;
+}
+#pianoc {
+    margin-right: 69vw;
+    margin-top: -24vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(107, 79, 98); 
+    margin-left: 50vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(32, 0, 173); 
+}
+#cookingt {
+    margin-top: 10vw;
+    text-align: center;
+}
+#cooking {
+    width: 22vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:70vw;
+    margin-top: 1vw;
+    height: 22vw;
+    margin-bottom: 5vw;
+}
+#cookingc {
+    margin-right: 69vw;
+    margin-top: -26vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(107, 79, 98); 
+    margin-left: 50vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(32, 0, 173); 
 }

@@ -46,9 +46,9 @@ function initAboutMe() {
 
         var element = document.createElement('div');
         element.classList.add('hobbie-element');
-        element.innerHTML = '<h2 id=' + aboutMe[i].id + '>' + aboutMe[i].title + '</h2>' +
+        element.innerHTML = '<h2 id=' + aboutMe[i].titleid + '>' + aboutMe[i].title + '</h2>' +
             '<img src=' + aboutMe[i].image + ' id=' + aboutMe[i].id + '>' +
-            '<p id=' + aboutMe[i].id + '>' + aboutMe[i].content + '</p>';
+            '<p id=' + aboutMe[i].contentid + '>' + aboutMe[i].content + '</p>';
         allElements.appendChild(element);
 
     }
