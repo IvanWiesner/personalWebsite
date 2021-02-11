@@ -30,7 +30,9 @@
     -webkit-background-clip: text;
     animation: 40s linear 0s infinite move;
 }
-
+body {
+    background-color:rgb(184, 175, 159)
+}
 .rightNav {
     display: inline;
     width: 80vw;
@@ -68,29 +70,29 @@
 #jobs_id {
     text-align: center;
     border-bottom:rgb(40, 68, 112) solid .5vw;
-    color: blue;
-    background-color: rgb(190, 188, 188);
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 68, 68);
     height: 4vw;
 }
 #school-Content {
     text-align: center; 
     border-bottom:rgb(40, 68, 112) solid .5vw;
-    color: blue;
-    background-color: rgb(190, 188, 188);
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 68, 68);
     height: 4vw;
 }
 #contact-Info {
     text-align: center; 
     border-bottom:rgb(40, 68, 112) solid .5vw;
-    color: blue;
-    background-color: rgb(190, 188, 188);
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 68, 68);
     height: 4vw;
 }
 #about_header {
     text-align: center; 
     border-bottom:rgb(40, 68, 112) solid .5vw;
-    color: blue;
-    background-color: rgb(190, 188, 188);
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 68, 68);
     height: 4vw;
 }
 @keyframes move {
@@ -312,12 +314,12 @@ h2{
     margin-right: 69vw;
     margin-top: -19vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(107, 79, 98); 
+    color:rgb(197, 133, 15); 
     margin-left: 50vw;
     margin-left: 5vh;
     font-weight: bold; 
     font-size: 1vw;
-    border: .3vw solid rgb(32, 0, 173); 
+    border: .3vw solid rgb(175, 185, 24);  
 }
 #videot {
     margin-top: 10vw;
@@ -336,12 +338,12 @@ h2{
     margin-right: 69vw;
     margin-top: -30vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(107, 79, 98); 
+    color:rgb(197, 133, 15);   
     margin-left: 50vw;
     margin-left: 5vh;
     font-weight: bold; 
     font-size: 1vw;
-    border: .3vw solid rgb(32, 0, 173); 
+    border: .3vw solid rgb(175, 185, 24); 
 }
 #pianot {
     margin-top: 10vw;
@@ -360,12 +362,12 @@ h2{
     margin-right: 69vw;
     margin-top: -24vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(107, 79, 98); 
+    color:rgb(197, 133, 15); 
     margin-left: 50vw;
     margin-left: 5vh;
     font-weight: bold; 
     font-size: 1vw;
-    border: .3vw solid rgb(32, 0, 173); 
+    border: .3vw solid rgb(175, 185, 24); 
 }
 #cookingt {
     margin-top: 10vw;
@@ -384,10 +386,82 @@ h2{
     margin-right: 69vw;
     margin-top: -26vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(107, 79, 98); 
+    color:rgb(197, 133, 15); 
     margin-left: 50vw;
     margin-left: 5vh;
     font-weight: bold; 
     font-size: 1vw;
-    border: .3vw solid rgb(32, 0, 173); 
+    border: .3vw solid rgb(175, 185, 24); 
+}
+#cellt {
+    margin-top: -2vw;
+    text-align: center;
+}
+#cell {
+    width: 30vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:55vw;
+    margin-top: 1vw;
+    height: 20vw;
+    margin-bottom: 5vw;
+}
+#cellnumber {
+    margin-right: 69vw;
+    margin-top: -20vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(161, 62, 130); 
+    margin-left: 25vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(47, 165, 43);
+}
+#emailt {
+    margin-top: 15vw;
+    text-align: center;
+}
+#email {
+    width: 30vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:55vw;
+    margin-top: 1vw;
+    height: 20vw;
+    margin-bottom: 5vw;
+}
+#emailc {
+    margin-right: 69vw;
+    margin-top: -20vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(161, 62, 130); 
+    margin-left: 25vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(47, 165, 43);
+}
+#mailt {
+    margin-top: 15vw;
+    text-align: center;
+}
+#adress {
+    width: 30vw;
+    padding-right: 1vw;
+    margin-right: 1vw;
+    margin-left:55vw;
+    margin-top: 1vw;
+    height: 20vw;
+    margin-bottom: 5vw;
+}
+#mailc {
+    margin-right: 69vw;
+    margin-top: -20vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(161, 62, 130); 
+    margin-left: 25vw;
+    margin-left: 5vh;
+    font-weight: bold; 
+    font-size: 1vw;
+    border: .3vw solid rgb(47, 165, 43);
 }
