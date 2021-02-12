@@ -1,5 +1,5 @@
 var schoolContent = [{
-        title: "Education Levels",
+        title: "levels",
         titleid: "education",
         image: "../pics/education/uccs.jpeg",
         id: "school",
@@ -32,7 +32,7 @@ function initSchoolContent() {
     allElements.classList.add('schoolContent');
 
     var header = document.createElement('h1');
-    header.innerHTML = 'School Content';
+    header.innerHTML = 'Education';
     header.id = 'school-Content';
     allElements.appendChild(header);
 

@@ -47,7 +47,7 @@ function initAboutMe() {
     allElements.classList.add('Hobbies'); // adding class of 'hobbies' to newley created div
 
     var header = document.createElement('h1');
-    header.innerHTML = 'About Ivan';
+    header.innerHTML = 'About Me';
     header.id = 'about_header';
     allElements.appendChild(header);
 

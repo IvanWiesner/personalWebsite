@@ -3,7 +3,7 @@ var contactArray = [{
         titleid: "cellt",
         image: "../pics/contact/cell.jpg",
         id: "cell",
-        content: '(720) 648-7698',
+        content: '(720)648-7698',
         contentid: "cellnumber",
     },
     {
@@ -30,7 +30,7 @@ function initContactPage() {
     allElements.classList.add('contactiInfo');
 
     var header = document.createElement('h1');
-    header.innerHTML = 'Contact Information';
+    header.innerHTML = 'Contact';
     header.id = 'contact-Info';
     allElements.appendChild(header);
 

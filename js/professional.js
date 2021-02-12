@@ -52,7 +52,7 @@ function initprofessional() {
     allElements.classList.add('jobs');
 
     var header = document.createElement('h1');
-    header.innerHTML = 'Work History';
+    header.innerHTML = 'Professional';
     header.id = 'jobs_id';
     allElements.appendChild(header);
 
