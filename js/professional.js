@@ -5,7 +5,9 @@ var professional = [{
         datesid: "banqp",
         image: "../pics/professional/hotel.PNG",
         id: "hotel",
-        content: 'Responsibilities included setting up projectors/ tech equipment, customer service to solve problems, and recruit people to join the staff. Very capable in addressing stressful situations calmly and dealing with difficult customers. Assisted in various tasks in opening for new events, while being collaborative and compatible with many areas including management. Personality was highly effective in increasing sales and customer retention while successfully managing full time schooling hours.',
+        content: 'Responsibilities included setting up projectors/tech equipment, customer service to solve problems, and recruited people to join the staff. At peak, had recruited 100% of staff for hotel event setup functions. \
+        Very capable in addressing stressful situations calmly and dealing with difficult customers. Assisted in various tasks in opening for new events, \
+        while being collaborative and compatible in many areas including working with management. Personality was highly effective in increasing sales and customer retention while successfully managing full time schooling hours.',
         contentid: "banqc",
     },
     {
@@ -15,7 +17,8 @@ var professional = [{
         datesid: "cookp",
         image: "../pics/professional/cook.PNG",
         id: "cook",
-        content: 'Responsibilities included recruiting and training new employees, closing duties, re-stocking of supplies. Initiated a productive atmosphere in the kitchen - keeping everyone in line and in sequential order. Ticker master/Multi tasker',
+        content: 'Responsibilities included recruiting and training new employees - at peak recruited 20% of staff, closing duties, re-stocking of supplies. Initiated a productive atmosphere in the kitchen - keeping everyone in line and in sequential order. Ticket master/Multi tasker - given added responsibliites and duties \
+        on a regular basis - was a natural trusted leader',
         contentid: "cookc",
     },
     {
@@ -25,7 +28,9 @@ var professional = [{
         datesid: "denverp",
         image: "../pics/professional/drakes.PNG",
         id: "drake",
-        content: 'Joined semi-pro teams for going pro in League of Legends, to see what it would be like. Although I enjoyed it alot I realized I had alot of room for improvement in comparsion vs acutal pro team. After seeing this I decided it would take too long to reach that.',
+        content: 'Joined semi-pro teams for going pro in League of Legends, in quest of being challenged and advancing in lifelong gaming focus. \
+        On the highest rank of this team "A" team. Consistent and reliable gamer and multi-tasker.   \
+        Eventually moved on to other ventures.',
         contentid: "denverc",
     },
     {
@@ -35,7 +40,8 @@ var professional = [{
         datesid: "streamp",
         image: "../pics/professional/stream.PNG",
         id: "stream",
-        content: 'Streamed part time while I went to school instead of working because it was more enjoyable to do. Its pretty much a self run youtube where you are currently live doing things instead of pre-recorded.',
+        content: 'Streamed part-time while atending college as a part-time job. Highly ranked - in the top one percentile within the pool of millions of players.\
+        Streamed on Twitch and gained a small following.',
         contentid: "streamc",
     }
 ];

@@ -1,9 +1,9 @@
 var schoolContent = [{
         title: "Education Levels",
         titleid: "education",
-        image: "../pics/education/uccs.jpg",
+        image: "../pics/education/uccs.jpeg",
         id: "school",
-        content: 'Highschool diploma and Associates in general education. Highschool class of 2016 froem Legacy highschool. Associates from University of Colorado Colorado Springs and Front range Community College.',
+        content: 'High school diploma and Associates Degree in general education. High school class of 2016 from Legacy in Broomfield, CO.  Associates from University of Colorado - Colorado Springs and Front Range Community College.',
         contentid: "schoole",
     },
     {
@@ -11,7 +11,7 @@ var schoolContent = [{
         titleid: "academy",
         image: "../pics/education/codeacademy.PNG",
         id: "code",
-        content: "Completion of the Javascript, CSS, and HTML courses on the pro version.",
+        content: "Completion of the Javascript, CSS, and HTML courses on the pro version of Code Academy.",
         contentid: "codes",
     },
     {
@@ -19,8 +19,8 @@ var schoolContent = [{
         titleid: "extra",
         image: "../pics/education/band.jpg",
         id: "band",
-        content: 'Was in marching band in highschool in leadership positions. Won the \
-        state competiton two times and even marched in the tournament of Roses parade. Business club outside of school where competitions where held based off \
+        content: 'Was in marching band in high school and held in leadership positions. Won the \
+        state competiton two times and marched in the Tournament of Roses parade in Southern California. Business club (DECA) outside of school - competitions were held based off \
         pitching ideas and going to other schools to compete. Events were at hotels \
         and made it to the finals with my team.',
         contentid: "extras",

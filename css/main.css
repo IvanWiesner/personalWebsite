@@ -31,7 +31,7 @@
     animation: 40s linear 0s infinite move;
 }
 body {
-    background-color:rgb(184, 175, 159)
+    background-color:rgb(29, 31, 31)
 }
 .rightNav {
     display: inline;
@@ -68,31 +68,31 @@ body {
     margin: 0 0 0 0.2vw;
 }
 #jobs_id {
-    text-align: center;
-    border-bottom:rgb(40, 68, 112) solid .5vw;
-    color: rgb(0, 0, 0);
-    background-color: rgb(173, 68, 68);
+    text-align: center; 
+    border-bottom:rgb(255, 255, 255) solid .5vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 55, 58);
     height: 4vw;
 }
 #school-Content {
     text-align: center; 
-    border-bottom:rgb(40, 68, 112) solid .5vw;
-    color: rgb(0, 0, 0);
-    background-color: rgb(173, 68, 68);
+    border-bottom:rgb(255, 255, 255) solid .5vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 55, 58);
     height: 4vw;
 }
 #contact-Info {
     text-align: center; 
-    border-bottom:rgb(40, 68, 112) solid .5vw;
-    color: rgb(0, 0, 0);
-    background-color: rgb(173, 68, 68);
+    border-bottom:rgb(255, 255, 255) solid .5vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 55, 58);
     height: 4vw;
 }
 #about_header {
     text-align: center; 
-    border-bottom:rgb(40, 68, 112) solid .5vw;
-    color: rgb(0, 0, 0);
-    background-color: rgb(173, 68, 68);
+    border-bottom:rgb(255, 255, 255) solid .5vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 55, 58);
     height: 4vw;
 }
 @keyframes move {
@@ -113,11 +113,12 @@ h2{
 }
 #banquet {
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #banqp {
     font-size: 2vw;
     text-align: center;
-    color: rgb(127, 155, 29);
+    color: rgb(32, 99, 131);
     font-weight: bolder;
 }
 #hotel {
@@ -128,7 +129,7 @@ h2{
     margin-top: 2vw;
 }
 #banqc {
-    margin-right: 69vw;
+    margin-right: 55vw;
     margin-top: -18vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(143, 92, 63); 
@@ -136,27 +137,29 @@ h2{
     margin-left: 5vh;
     font-weight: bold; 
     font-size: 1vw;
-    border: .3vw solid rgb(82, 82, 82);
+    border: .3vw inset rgb(82, 82, 82);
+    margin-inline-start: 14vw;
 }
 #line {
     text-align: center;
     margin-top: 5vw;
+    color:rgb(180, 34, 34);
 }
 #cookp {
     font-size: 2vw;
     text-align: center;
-    color: rgb(127, 155, 29);
+    color: rgb(32, 99, 131);
     font-weight: bolder;
 }
 #cook {
     width: 30vw;
     padding-right: 1vw;
     margin-right: 1vw;
-    margin-left:55vw;
+    margin-left:14vw;
     margin-top: .1vw;
 }
 #cookc {
-    margin-right: 69vw;
+    margin-right: 10vw;
     margin-top: -11vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(143, 92, 63); 
@@ -164,16 +167,18 @@ h2{
     margin-left: 5vh;
     font-weight: bold; 
     font-size: 1vw;
-    border: .3vw solid rgb(82, 82, 82);
+    border: .3vw inset rgb(82, 82, 82);
+    margin-inline-start: 55vw;
 }
 #denver {
     text-align: center;
     margin-top: 5vw;
+    color:rgb(180, 34, 34);
 }
 #denverp {
     font-size: 2vw;
     text-align: center;
-    color: rgb(127, 155, 29);
+    color: rgb(32, 99, 131);
     font-weight: bolder;
 }
 #drake {
@@ -185,7 +190,7 @@ h2{
     height: 23vw;
 }
 #denverc {
-    margin-right: 69vw;
+    margin-right: 55vw;
     margin-top: -17vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(143, 92, 63); 
@@ -193,29 +198,31 @@ h2{
     margin-left: 5vh;
     font-weight: bold; 
     font-size: 1vw;
-    border: .3vw solid rgb(82, 82, 82);
+    border: .3vw inset rgb(82, 82, 82);
+    margin-inline-start: 14vw;
 }
 #streamer {
     margin-top: 12vw;
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #streamp {
     font-size: 2vw;
     text-align: center;
-    color: rgb(127, 155, 29);
+    color: rgb(32, 99, 131);
     font-weight: bolder;
 }
 #stream {
     width: 30vw;
     padding-right: 1vw;
     margin-right: 1vw;
-    margin-left:55vw;
+    margin-left:14vw;
     margin-top: .1vw;
     height: 10vw;
     margin-bottom: 5vw;
 }
 #streamc {
-    margin-right: 69vw;
+    margin-right: 10vw;
     margin-top: -14vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(143, 92, 63); 
@@ -223,59 +230,65 @@ h2{
     margin-left: 5vh;
     font-weight: bold; 
     font-size: 1vw;
-    border: .3vw solid rgb(82, 82, 82);
+    border: .3vw inset rgb(82, 82, 82);
+    margin-inline-start: 55vw;
 }
 #education {
     margin-top: 2vw;
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #school {
     width: 30vw;
-    padding-right: 1vw;
-    margin-right: 1vw;
+    padding-right: 4vw;
+    margin-right: 3vw;
     margin-left:55vw;
-    margin-top: .1vw;
+    margin-top: 6vw;
     height: 20vw;
     margin-bottom: 5vw;
 }
 #schoole {
-    margin-right: 69vw;
-    margin-top: -20vw;
+    margin-right: 50vw;
+    margin-top: -25.2vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(107, 79, 98); 
-    margin-left: 25vw;
-    margin-left: 5vh;
+    color:rgb(148, 172, 84); 
+    margin-left: 1vw;
+    margin-left: .1vh;
     font-weight: bold; 
-    font-size: 1vw;
-    border: .3vw solid rgb(32, 0, 173);
+    font-size: 2vw;
+    border: .3vw outset rgba(140, 29, 173, 0.774);
+    margin-inline-start: 15vw;
 }
 #academy {
     margin-top: 10vw;
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #code {
     width: 30vw;
     padding-right: 1vw;
     margin-right: 1vw;
-    margin-left:55vw;
-    margin-top: 1vw;
+    margin-left:18vw;
+    margin-top: 5vw;
     height: 20vw;
-    margin-bottom: 5vw;
+    margin-bottom: 2.3vw;
 }
 #codes {
-    margin-right: 69vw;
+    margin-right: 20vw;
     margin-top: -20vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(107, 79, 98); 
-    margin-left: 25vw;
+    color:rgb(148, 172, 84); 
+    margin-left: 51vw;
     margin-left: 5vh;
     font-weight: bold; 
-    font-size: 1vw;
-    border: .3vw solid rgb(32, 0, 173);
+    font-size: 2vw;
+    border: .3vw outset rgba(140, 29, 173, 0.774);
+    margin-inline-start: 58vw;
 }
 #extra {
     margin-top: 15vw;
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #band {
     width: 30vw;
@@ -287,115 +300,125 @@ h2{
     margin-bottom: 5vw;
 }
 #extras {
-    margin-right: 69vw;
-    margin-top: -23vw;
+    margin-right: 55vw;
+    margin-top: -26vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(107, 79, 98); 
+    color:rgb(148, 172, 84);  
     margin-left: 25vw;
     margin-left: 5vh;
     font-weight: bold; 
-    font-size: 1vw;
-    border: .3vw solid rgb(32, 0, 173);
+    font-size: 1.2vw;
+    border: .3vw outset rgba(140, 29, 173, 0.774);
+    margin-inline-start: 18vw;
 }
 #ivant{
     margin-top: 2vw;
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #face {
     width: 22vw;
     padding-right: 1vw;
     margin-right: 1vw;
-    margin-left:70vw;
+    margin-left:55vw;
     margin-top: 1vw;
     height: 22vw;
     margin-bottom: 5vw;
 }
 #ivanc {
-    margin-right: 69vw;
-    margin-top: -19vw;
+    margin-right: 55vw;
+    margin-top: -25vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(197, 133, 15); 
+    color:rgb(49, 160, 86);   
     margin-left: 50vw;
     margin-left: 5vh;
     font-weight: bold; 
-    font-size: 1vw;
-    border: .3vw solid rgb(175, 185, 24);  
+    font-size: 1.44vw;
+    border: .3vw groove rgb(245, 245, 245);
+    margin-inline-start: 14vw;
 }
 #videot {
     margin-top: 10vw;
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #poppy {
-    width: 22vw;
+    width: 26vw;
     padding-right: 1vw;
     margin-right: 1vw;
-    margin-left:70vw;
-    margin-top: 8vw;
-    height: 22vw;
+    margin-left:18vw;
+    margin-top: 0vw;
+    height: 26vw;
     margin-bottom: 5vw;
 }
 #viedoc {
-    margin-right: 69vw;
+    margin-right: 14vw;
     margin-top: -30vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(197, 133, 15);   
+    color:rgb(49, 160, 86);   
     margin-left: 50vw;
     margin-left: 5vh;
     font-weight: bold; 
-    font-size: 1vw;
-    border: .3vw solid rgb(175, 185, 24); 
+    font-size: 1.1vw;
+    border: .3vw groove rgb(245, 245, 245); 
+    margin-inline-start: 55vw;
 }
 #pianot {
-    margin-top: 10vw;
+    margin-top: 5vw;
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #piano {
     width: 22vw;
     padding-right: 1vw;
     margin-right: 1vw;
-    margin-left:70vw;
+    margin-left:55vw;
     margin-top: 1vw;
     height: 22vw;
     margin-bottom: 5vw;
 }
 #pianoc {
-    margin-right: 69vw;
-    margin-top: -24vw;
+    margin-right: 55vw;
+    margin-top: -27vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(197, 133, 15); 
+    color:rgb(49, 160, 86);   
     margin-left: 50vw;
     margin-left: 5vh;
     font-weight: bold; 
-    font-size: 1vw;
-    border: .3vw solid rgb(175, 185, 24); 
+    font-size: 1.3vw;
+    border: .3vw groove rgb(245, 245, 245);
+    margin-inline-start: 14vw;
 }
 #cookingt {
     margin-top: 10vw;
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #cooking {
-    width: 22vw;
+    width: 26vw;
     padding-right: 1vw;
     margin-right: 1vw;
-    margin-left:70vw;
-    margin-top: 1vw;
-    height: 22vw;
+    margin-left:18vw;
+    margin-top: 0vw;
+    height: 26vw;
     margin-bottom: 5vw;
 }
 #cookingc {
-    margin-right: 69vw;
-    margin-top: -26vw;
+    margin-right: 14vw;
+    margin-top: -30vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(197, 133, 15); 
+    color:rgb(49, 160, 86);   
     margin-left: 50vw;
     margin-left: 5vh;
     font-weight: bold; 
-    font-size: 1vw;
-    border: .3vw solid rgb(175, 185, 24); 
+    font-size: 1.3vw;
+    border: .3vw groove rgb(245, 245, 245); 
+    margin-inline-start: 55vw;
 }
 #cellt {
     margin-top: -2vw;
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #cell {
     width: 30vw;
@@ -407,43 +430,47 @@ h2{
     margin-bottom: 5vw;
 }
 #cellnumber {
-    margin-right: 69vw;
+    margin-right: 57vw;
     margin-top: -20vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(161, 62, 130); 
+    color:rgb(145, 36, 63);     
     margin-left: 25vw;
     margin-left: 5vh;
     font-weight: bold; 
-    font-size: 1vw;
-    border: .3vw solid rgb(47, 165, 43);
+    font-size: 2vw;
+    border: .3vw groove rgb(36, 175, 78); 
+    margin-inline-start: 20vw;
 }
 #emailt {
     margin-top: 15vw;
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #email {
     width: 30vw;
     padding-right: 1vw;
     margin-right: 1vw;
-    margin-left:55vw;
+    margin-left:16vw;
     margin-top: 1vw;
     height: 20vw;
     margin-bottom: 5vw;
 }
 #emailc {
-    margin-right: 69vw;
+    margin-right: 14vw;
     margin-top: -20vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(161, 62, 130); 
-    margin-left: 25vw;
+    color:rgb(145, 36, 63);   
+    margin-left: 50vw;
     margin-left: 5vh;
     font-weight: bold; 
-    font-size: 1vw;
-    border: .3vw solid rgb(47, 165, 43);
+    font-size: 2vw;
+    border: .3vw groove rgb(36, 175, 78); 
+    margin-inline-start: 55vw;
 }
 #mailt {
     margin-top: 15vw;
     text-align: center;
+    color:rgb(180, 34, 34);
 }
 #adress {
     width: 30vw;
@@ -455,13 +482,14 @@ h2{
     margin-bottom: 5vw;
 }
 #mailc {
-    margin-right: 69vw;
+    margin-right: 57vw;
     margin-top: -20vw;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(161, 62, 130); 
+    color:rgb(145, 36, 63);     
     margin-left: 25vw;
     margin-left: 5vh;
     font-weight: bold; 
-    font-size: 1vw;
-    border: .3vw solid rgb(47, 165, 43);
+    font-size: 2vw;
+    border: .3vw groove rgb(36, 175, 78); 
+    margin-inline-start: 20vw;
 }

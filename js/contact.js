@@ -19,7 +19,7 @@ var contactArray = [{
         titleid: "mailt",
         image: "../pics/contact/home.jpg",
         id: "adress",
-        content: '103 Summit Way, Erie CO',
+        content: '103 Summit Way, Erie CO  80516',
         contentid: "mailc",
     }
 ];
@@ -30,7 +30,7 @@ function initContactPage() {
     allElements.classList.add('contactiInfo');
 
     var header = document.createElement('h1');
-    header.innerHTML = 'Contact Info';
+    header.innerHTML = 'Contact Information';
     header.id = 'contact-Info';
     allElements.appendChild(header);
 
