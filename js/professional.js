@@ -22,7 +22,7 @@ var professional = [{
         contentid: "cookc",
     },
     {
-        title: 'Denver Drake Jungler',
+        title: 'Denver Drakes - Jungler',
         titleid: "denver",
         dates: 'May 2017 - October 2018',
         datesid: "denverp",

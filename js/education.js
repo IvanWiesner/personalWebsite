@@ -15,7 +15,7 @@ var schoolContent = [{
         contentid: "codes",
     },
     {
-        title: "Extraciricular",
+        title: "Extracurricular",
         titleid: "extra",
         image: "../pics/education/band.jpg",
         id: "band",
