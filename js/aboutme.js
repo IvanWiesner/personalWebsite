@@ -40,7 +40,7 @@ var aboutMe = [{
         contentid: "cookingc",
     }
 ];
-s
+
 
 function initAboutMe() {
 
