@@ -27,7 +27,7 @@ var aboutMe = [{
         I bought a keyboard and have begun playing again since last year.',
         contentid: "pianoc",
     },
-    {
+    {s
         title: "Cooking",
         titleid: "cookingt",
         image: "../pics/about/cooking.jpg",
