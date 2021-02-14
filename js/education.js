@@ -1,29 +1,29 @@
 var schoolContent = [{
-        title: "levels",
-        titleid: "education",
-        image: "../pics/education/uccs.jpeg",
-        id: "school",
-        content: 'High school diploma and Associates Degree in general education. High school class of 2016 from Legacy in Broomfield, CO.  Associates from University of Colorado - Colorado Springs and Front Range Community College.',
-        contentid: "schoole",
+        title: "University of Colorado, Colorado Springs",
+        image: "../pics/education/cu.jpg",
+        content: 'Obtained associates degree, with a focus in bussiness core principals. Focused courses include \
+            principals of microeconomics, principals of macroeconomics, business law, international marketing, algebraic literacy, \
+            legal enviornment of business, accounting principals, and public speaking. Also completed numerous hard science courses \
+            including geology, anatomy, and phisiology. ',
+        date: "September 2016 - August 2020"
     },
     {
-        title: "Code Academy",
-        titleid: "academy",
-        image: "../pics/education/codeacademy.PNG",
-        id: "code",
-        content: "Completion of the Javascript, CSS, and HTML courses on the pro version of Code Academy.",
-        contentid: "codes",
+        title: "Codecademy",
+        image: "../pics/education/code.jpg",
+        content: "Independantly completed numerous modules focused on web development. Modules included 'Learn HTML', 'Learn CSS', and \
+            'Learn Javascript'. Learned about the basics of web design, design structure, and core programming principals. Also completed \
+            readings for further study through the following texts; Head First HTML and CSS, and Head First Javascript Programming by Eric \
+            Freeman and Elisabeth Robson.  ",
+        date: "August 2020 - February 2021"
     },
     {
-        title: "Extracurricular",
-        titleid: "extra",
+        title: "Legacy High School",
         image: "../pics/education/band.jpg",
-        id: "band",
-        content: 'Was in marching band in high school and held in leadership positions. Won the \
-        state competiton two times and marched in the Tournament of Roses parade in Southern California. Business club (DECA) outside of school - competitions were held based off \
-        pitching ideas and going to other schools to compete. Events were at hotels \
-        and made it to the finals with my team.',
-        contentid: "extras",
+        content: 'Graduated with the class of 2016. Lettered in the one of the states top marching bands all four years; taking first in the \
+        state in 2015 and 2016, and taking second the two prior years. Senior year got to participate in the nationally televised event, the \
+        tournemant of Roses parade (Rose Bowl) in Pasadena, California. <br>Some other clubs included the Distributed Education Clubs of America \
+        (DECA), which is a is a bussiness focused club that included mock trials, business pitches, and state-wide business competitions. ',
+        date: "September 2012 - June 2016"
     },
 ];
 
@@ -33,19 +33,27 @@ function initSchoolContent() {
 
     for (var i = 0; i < schoolContent.length; i++) {
 
-        var element = document.createElement('div');
-        element.innerHTML = '<h2 id=' + schoolContent[i].titleid + '>' + schoolContent[i].title + '</h2>' +
-            //<h2 id= name> content </h2> +
-            '<img src=' + schoolContent[i].image + ' id=' + schoolContent[i].id + '>' +
-            '<p id=' + schoolContent[i].contentid + '>' + schoolContent[i].content + '</p>';
-        // string interpolation javascript 
-        // dynamically creating html elements in javasctipt
-        // looping and arrays and objects in js
+        var contentDiv = document.createElement('div');
+        contentDiv.classList.add('education-content');
 
-        allElements.appendChild(element);
+        var leftDiv = document.createElement('div');
+        leftDiv.classList.add('education-left');
+        leftDiv.innerHTML = '<h2>' + schoolContent[i].title + '</h2>' +
+            '<p>' + schoolContent[i].date + '</p>' +
+            '<p>' + schoolContent[i].content + '</p>';
+
+        var rightDiv = document.createElement('div');
+        rightDiv.classList.add('education-right');
+        rightDiv.innerHTML = `<img src="${schoolContent[i].image}"/>`;
+        
+        contentDiv.appendChild(leftDiv);
+        contentDiv.appendChild(rightDiv);
+
+        allElements.appendChild(contentDiv);
 
     }
     document.body.appendChild(allElements);
 }
 
 document.body.addEventListener('load', initSchoolContent(), false);
+
