@@ -39,7 +39,7 @@ function aboutMe() {
 
 document.body.addEventListener('load', aboutMe());
 
-function bio() {
+function bio() { // you got this ivan, home streatch
     var allElements = document.createElementns('div');
     allElements.classList.add('bio');
     var bioContent = document.createElement('div');
