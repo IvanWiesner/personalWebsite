@@ -93,24 +93,27 @@ body {
     border-radius: 2vw;
     display: table-cell;
     border: .1vw solid rgb(141, 35, 35);
+    margin-top: 2vw;
 }
 
 .education-right {
     float: right;
     width: 26vw;
     display: inline-block;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 1vw;
     display: table-cell;
+    height: 15vw;
+    margin-top: 2.4vw;
 }
 
 .education-right img {
     border-radius: 1vw;
     width: 20vw;
-    max-height: 30vw;
-    line-height: 10vh;
+    max-height: 20vw;
+    line-height: 0vh;
 }
-
+.education-right img:first-of-type {
+    height: 15vw;
+}
 .education-left h2 {
     margin: 1vw 0vw 0vw 1.3vw;
     font-size: 2.5vw;
@@ -132,11 +135,31 @@ body {
 }
 /*aboutme start*/
 .biocontentbox img {
-    width: 30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
 }
-
-
-
+/*professional start*/
+.prof-content {
+    display: table;
+}
+.prof-left {
+    display: inline-block;
+    display: table-cell;
+    display: inline-block;
+    border-radius: 2vw;
+    display: table-cell;
+    border: .1vw solid rgb(141, 35, 35);
+}
+.prof-right {
+    display: inline-block;
+    display: table-cell;
+    display: inline-block;
+    border-radius: 2vw;
+    display: table-cell;
+    border: .1vw solid rgb(141, 35, 35);
+}
+.prof-right p:first-of-type {
+    margin-top: 10wv;
+}
 
 
