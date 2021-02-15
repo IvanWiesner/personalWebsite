@@ -44,7 +44,7 @@ function initSchoolContent() {
 
         var rightDiv = document.createElement('div');
         rightDiv.classList.add('education-right');
-        rightDiv.innerHTML = `<img src="${schoolContent[i].image}"/>`;
+        rightDiv.innerHTML = `<img src="${schoolContent[i].image}">`;
         
         contentDiv.appendChild(leftDiv);
         contentDiv.appendChild(rightDiv);

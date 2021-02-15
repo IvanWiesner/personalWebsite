@@ -1,3 +1,34 @@
+var bioArray = [{
+    title: "Ivan Wiesner",
+    image: "../pics/other/face.jpg",
+    content: "The youngest of 4, born and raised in Southern California,\
+        CEO father of a telematics company and a teacher mother.\
+        Have lived in Colorado for 10 years - in both Westminster and Erie. \
+        Personality and attributes - I'm a straightforward individual with a no \
+        nonsense personality and tons of character. Here are some of my hobbies."
+}];
+
+function bio() {
+
+    var allElements = document.createElement('div');
+    allElements.classList.add('bio');
+
+    for (var i = 0; i < bioArray.length; i++) {
+
+        var bioContent = document.createElement('div');
+        bioContent.classList.add('biocontentbox');
+        bioContent.innerHTML = '<h2>' + bioArray[i].title + '</h2>' +
+        `<img src="${bioArray[i].image}"/>` +
+            '<p>' + bioArray[i].content + '</p>';
+
+        allElements.appendChild(bioContent);
+    };
+
+    document.body.appendChild(allElements);
+}
+
+document.body.addEventListener('load', bio());
+
 var aboutMeArray = [{
         title: "Video games",
         content: 'The two games I mainly play are League of Legends and Old School Runescape. Yes, the MMORPG that everyone played on Miniclip when they were little is still a game people play today. Have been playing since 2006. \
@@ -22,6 +53,7 @@ var aboutMeArray = [{
 ];
 
 function aboutMe() {
+
     var allElements = document.createElement('div');
     allElements.classList.add('hobbies');
 
@@ -30,25 +62,50 @@ function aboutMe() {
         var text = document.createElement('div');
         text.classList.add('contentbox');
         text.innerHTML = '<h2>' + aboutMeArray[i].title + '</h2>' +
-            '<p>' + aboutMeArray[i].content + '</p>' ;
-            
-        allElements.appendChild(text);        
+            '<p>' + aboutMeArray[i].content + '</p>';
+
+        allElements.appendChild(text);
     };
+
     document.body.appendChild(allElements);
 }
 
 document.body.addEventListener('load', aboutMe());
 
-function bio() { // you got this ivan, home streatch
-    var allElements = document.createElementns('div');
-    allElements.classList.add('bio');
-    var bioContent = document.createElement('div');
-    '<h2>' + bioArray.title + '</h2>' +
-    <img src= '../pics/other/face.jpg' ></img> +
-    '<p>' + bioArray.content + '</p>' ;
+var contactArray = [{
+    header: "Contact Info",
+    title: "Cell",
+    content: '(720)648-7698',
+},
+{
+    header: "",
+    title: "Email",
+    content: 'Ivanwiesner@gmail.com',
+},
+{
+    header: "",
+    title: 'Mailing Adress',
+    content: '103 Summit Way, Erie CO  80516',
 }
-var bioArray = [{
-        title: "Ivan Wiesner",
-        image: "../pics/other/face.jpg",
-        content: "The youngest of 4, born and raised in Southern California, CEO father of a telematics company and a teacher mother. Have lived in Colorado for 10 years - in both Westminster and Erie.  Personality and attributes - I'm a straightforward individual with a no nonsense personality and tons of character.",
-}];
+];
+
+function contact() {
+
+var allElements = document.createElement('div');
+allElements.classList.add('contact');
+
+for (var i = 0; i < contactArray.length; i++) {
+
+    var info = document.createElement('div');
+    info.classList.add('contactbox');
+    info.innerHTML = '<h1>' + contactArray[i].header + '</h1>' +
+    '<h2>' + contactArray[i].title + '</h2>' +
+    '<p>' + contactArray[i].content + '</p>';
+    allElements.appendChild(info);
+    };
+
+document.body.appendChild(allElements);
+}
+
+document.body.addEventListener('load', contact());
+

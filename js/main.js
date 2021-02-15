@@ -12,7 +12,6 @@ function initNavBar() {
         "<ul class='menuItems'>" +
         "<li><a class='navItem' id='educ-button' href='./education.html'>Education</a></li>" +
         "<li><a class='navItem' id='prof-button' href='./professional.html'>Professional</a></li>" +
-        "<li><a class='navItem' id='contact-button' href='./contact.html'>Contact</a></li>" +
         "<li><a class='navItem' id='bio-button' href='./about.html'>About me</a></li>" +
         "</ul>" +
         "</div>";

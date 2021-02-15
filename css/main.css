@@ -102,8 +102,6 @@ body {
     border: 3px solid rgb(255, 255, 255);
     border-radius: 1vw;
     display: table-cell;
-    vertical-align: center;
-
 }
 
 .education-right img {
@@ -111,7 +109,6 @@ body {
     width: 20vw;
     max-height: 30vw;
     line-height: 10vh;
-    vertical-align: center;
 }
 
 .education-left h2 {
@@ -131,8 +128,14 @@ body {
     margin: 0.5vw 1.3vw 1vw 1.3vw;
     font-size: 1.5vw;
     line-height: 2vw;
+    margin-top: 1vw;
 }
 /*aboutme start*/
+.biocontentbox img {
+    width: 30vw;
+    height: 30vw;
+}
+
 
 
 
