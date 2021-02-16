@@ -135,9 +135,8 @@ body {
     padding: 5vw;
 }
 .contentbox {
-    background-color:rgb(87, 119, 124);
     display: table-cell;
-    border: .2vw solid rgb(0, 81, 255);
+    border: .2vw solid rgba(136, 124, 124, 0.5);
     border-radius: 1vw;
     margin: 1vw 1vw 1vw 1vw;
     text-align: center;
@@ -149,7 +148,7 @@ body {
     font-size: 1.7vw;
 }
 .contentbox p {
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
 }
 .biocontentbox {
     text-align: center;
@@ -180,6 +179,9 @@ body {
     display: table-caption;
     font-size: .5vw;
     margin: 0vw 0vw 0vw 1vw;
+}
+.contactbox h2 {
+    color: rgb(0, 98, 255);
 }
 /*professional start*/
 .prof-content {
