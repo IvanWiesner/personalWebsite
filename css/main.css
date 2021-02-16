@@ -91,7 +91,7 @@ body {
     display: inline-block;
     border-radius: 2vw;
     display: table-cell;
-    border: .1vw solid rgb(141, 35, 35);
+    border: .1vw solid rgb(70, 61, 61);
     margin-top: 2vw;
 }
 .education-right {
@@ -115,12 +115,13 @@ body {
     margin: 1vw 0vw 0vw 1.3vw;
     font-size: 2.5vw;
     font-weight: bold;
+    color: rgb(0, 98, 255);
 }
 .education-left p:first-of-type {
     margin: 0vw 0vw 0vw 1.3vw;
     font-style: italic;
     font-size: 1.8vw;
-    color: rgba(47, 116, 76, 0.5);
+    color: rgba(136, 124, 124, 0.5);
 }
 .education-left p:last-of-type {
     margin: 0.5vw 1.3vw 1vw 1.3vw;
@@ -153,19 +154,21 @@ body {
 .biocontentbox {
     text-align: center;
     border: .5vw solid rgb(0, 81, 255);
-    margin: 1vw 30vw 1vw 30vw;
-    background-color:rgb(87, 119, 124);
+    margin: 1vw 0vw 1vw 0vw;
 }
 .biocontentbox h2 {
     color:rgb(3, 6, 7);
     font-size: 3vw;
     font-style: italic;
+    margin: 2vw 0vw 5vw 10vw;
 }
 .biocontentbox p {
     font-size: 1.2vw;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    margin: -22vw 17vw 15vw 28vw;
 }
 .biocontentbox img {
+    margin: -5vw 70vw 10vw 0vw;
     width: 20vw;
     height: 20vw;
 }
@@ -188,7 +191,6 @@ body {
     display: inline-block;
     border-radius: 2vw;
     display: table-cell;
-    border: .1vw solid rgb(141, 35, 35);
     padding: 0vw 0vw 0vw 0vw;
 }
 .prof-left img {
@@ -200,17 +202,17 @@ body {
     display: inline-block;
     border-radius: 2vw;
     display: table-cell;
-    border: .1vw solid rgb(141, 35, 35);
+    border: .1vw solid rgb(70, 61, 61);
 }
 .prof-right h2 {
     font-size: 2vw;
-    color:rgb(102, 58, 53);
+    color: rgb(0, 98, 255);
 }
 .prof-right p {
     font-size: 1.4vw;
 }
 .prof-right p:first-of-type {
     font-size: 1.6vw;
-    color:rgb(69, 87, 143);
+    color: rgba(136, 124, 124, 0.5);
     font-style: italic;
 }
