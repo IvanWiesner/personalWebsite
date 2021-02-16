@@ -133,6 +133,7 @@ body {
 .hobbies {
     display: table;
     padding: 5vw;
+    margin: 0vw 0vw 0vw 1vw;
 }
 .contentbox {
     display: table-cell;
@@ -178,10 +179,15 @@ body {
     display: inline-block;
     display: table-caption;
     font-size: .5vw;
-    margin: 0vw 0vw 0vw 1vw;
+    margin: 0vw 0vw 0vw 0vw;
 }
 .contactbox h2 {
     color: rgb(0, 98, 255);
+}
+.contact {
+    margin: -18vw 0vw 0vw 0vw;
+    color: rgb(0, 98, 255);
+
 }
 /*professional start*/
 .prof-content {
