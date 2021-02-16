@@ -1,7 +1,6 @@
 .leftNav,
 .rightNav {
     font-family: 'Press Start 2P', cursive;
-
 }
 
 .clicked-on {
@@ -78,12 +77,12 @@ body {
 /*education start*/
 .school-content{
     display: table;
+    max-width: 100%
 }
 .education-content {
     display: block;
-    /* border-radius: .3vw; */
-    width: 100vw;
     display: table-row;
+    width: 100%;
 }
 .education-left {
     float: left;
@@ -95,7 +94,6 @@ body {
     border: .1vw solid rgb(141, 35, 35);
     margin-top: 2vw;
 }
-
 .education-right {
     float: right;
     width: 26vw;
@@ -104,7 +102,6 @@ body {
     height: 15vw;
     margin-top: 2.4vw;
 }
-
 .education-right img {
     border-radius: 1vw;
     width: 20vw;
@@ -119,14 +116,12 @@ body {
     font-size: 2.5vw;
     font-weight: bold;
 }
-
 .education-left p:first-of-type {
     margin: 0vw 0vw 0vw 1.3vw;
     font-style: italic;
     font-size: 1.8vw;
     color: rgba(47, 116, 76, 0.5);
 }
-
 .education-left p:last-of-type {
     margin: 0.5vw 1.3vw 1vw 1.3vw;
     font-size: 1.5vw;
@@ -134,32 +129,88 @@ body {
     margin-top: 1vw;
 }
 /*aboutme start*/
+.hobbies {
+    display: table;
+    padding: 5vw;
+}
+.contentbox {
+    background-color:rgb(87, 119, 124);
+    display: table-cell;
+    border: .2vw solid rgb(0, 81, 255);
+    border-radius: 1vw;
+    margin: 1vw 1vw 1vw 1vw;
+    text-align: center;
+    width: 33%;
+}
+.contentbox h2 {
+    color:rgb(3, 6, 7);
+    font-style: italic;
+    font-size: 1.7vw;
+}
+.contentbox p {
+    color:rgb(255, 255, 255);
+}
+.biocontentbox {
+    text-align: center;
+    border: .5vw solid rgb(0, 81, 255);
+    margin: 1vw 30vw 1vw 30vw;
+    background-color:rgb(87, 119, 124);
+}
+.biocontentbox h2 {
+    color:rgb(3, 6, 7);
+    font-size: 3vw;
+    font-style: italic;
+}
+.biocontentbox p {
+    font-size: 1.2vw;
+    color:rgb(255, 255, 255);
+}
 .biocontentbox img {
     width: 20vw;
     height: 20vw;
 }
+.contact {
+    display: table;
+}
+.contactbox {
+    display: inline-block;
+    display: table-caption;
+    font-size: .5vw;
+    margin: 0vw 0vw 0vw 1vw;
+}
 /*professional start*/
 .prof-content {
-    display: table;
+    display: flex;
+    padding: 2vw 5vw 0vw 0vw;
+    min-width: 100%;
 }
 .prof-left {
     display: inline-block;
-    display: table-cell;
-    display: inline-block;
     border-radius: 2vw;
     display: table-cell;
     border: .1vw solid rgb(141, 35, 35);
+    padding: 0vw 0vw 0vw 0vw;
+}
+.prof-left img {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 2vw;
 }
 .prof-right {
     display: inline-block;
-    display: table-cell;
-    display: inline-block;
     border-radius: 2vw;
     display: table-cell;
     border: .1vw solid rgb(141, 35, 35);
 }
-.prof-right p:first-of-type {
-    margin-top: 10wv;
+.prof-right h2 {
+    font-size: 2vw;
+    color:rgb(102, 58, 53);
 }
-
-
+.prof-right p {
+    font-size: 1.4vw;
+}
+.prof-right p:first-of-type {
+    font-size: 1.6vw;
+    color:rgb(69, 87, 143);
+    font-style: italic;
+}

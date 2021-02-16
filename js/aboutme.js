@@ -74,18 +74,15 @@ document.body.addEventListener('load', aboutMe());
 
 var contactArray = [{
     header: "Contact Info",
-    title: "Cell",
-    content: '(720)648-7698',
+    content: 'Cell-(720)648-7698',
 },
 {
     header: "",
-    title: "Email",
-    content: 'Ivanwiesner@gmail.com',
+    content: 'Email-Ivanwiesner@gmail.com',
 },
 {
     header: "",
-    title: 'Mailing Adress',
-    content: '103 Summit Way, Erie CO  80516',
+    content: 'Mailing Adress-103 Summit Way, Erie CO  80516',
 }
 ];
 
@@ -99,7 +96,6 @@ for (var i = 0; i < contactArray.length; i++) {
     var info = document.createElement('div');
     info.classList.add('contactbox');
     info.innerHTML = '<h1>' + contactArray[i].header + '</h1>' +
-    '<h2>' + contactArray[i].title + '</h2>' +
     '<p>' + contactArray[i].content + '</p>';
     allElements.appendChild(info);
     };

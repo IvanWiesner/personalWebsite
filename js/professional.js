@@ -25,7 +25,9 @@ var professionalArray = [{
         title: 'Streamer',
         dates: 'January 2019 - October 2020',
         image: "../pics/professional/stream.jpg",
-        content: 'Streamed part-time while atending college as a part-time job. Highly ranked - in the top one percentile within the pool of millions of players.\
+        content: 'Streamed part-time while atending college as a part-time job. \
+        Highly ranked - in the top one percentile within the pool \
+        of millions of players. AKA being Diamond 1 and above in League of Legends. Also in the top 1000 for players on Old School Runescape. \
         Streamed on Twitch and gained a small following.',
     }
 ];
