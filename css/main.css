@@ -144,7 +144,7 @@ body {
     width: 33%;
 }
 .contentbox h2 {
-    color:rgb(3, 6, 7);
+    color: rgb(0, 98, 255);
     font-style: italic;
     font-size: 1.7vw;
 }
@@ -153,11 +153,11 @@ body {
 }
 .biocontentbox {
     text-align: center;
-    border: .5vw solid rgb(0, 81, 255);
+    border: .5vw solid rgba(136, 124, 124, 0.5);
     margin: 1vw 0vw 1vw 0vw;
 }
 .biocontentbox h2 {
-    color:rgb(3, 6, 7);
+    color: rgb(0, 98, 255);
     font-size: 3vw;
     font-style: italic;
     margin: 2vw 0vw 5vw 10vw;
