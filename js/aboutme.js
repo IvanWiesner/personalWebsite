@@ -1,6 +1,6 @@
 var bioArray = [{
     title: "Ivan Wiesner",
-    image: "../pics/other/face.jpg",
+    image: "pics/other/face.jpg",
     content: "The youngest of 4, born and raised in Southern California,\
         CEO father of a telematics company and a teacher mother.\
         Have lived in Colorado for 10 years - in both Westminster and Erie. \
