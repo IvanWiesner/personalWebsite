@@ -9,7 +9,7 @@ var schoolContent = [{
     },
     {
         title: "Codecademy",
-        image: "pics/education/code.jpg",
+        image: "pics/education/code.JPG",
         content: "Independantly completed numerous modules focused on web development. Modules included 'Learn HTML', 'Learn CSS', and \
             'Learn Javascript'. Learned about the basics of web design, design structure, and core programming principals. Also completed \
             readings for further study through the following texts; Head First HTML and CSS, and Head First Javascript Programming by Eric \
