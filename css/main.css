@@ -163,14 +163,14 @@ body {
     margin: 2vw 0vw 5vw 10vw;
 }
 .biocontentbox p {
-    font-size: 1.2vw;
+    font-size: 2vw;
     color:rgb(0, 0, 0);
-    margin: -22vw 17vw 15vw 28vw;
+    margin: -35vw 17vw 15vw 28vw;
 }
 .biocontentbox img {
     margin: -5vw 70vw 10vw 0vw;
-    width: 20vw;
-    height: 20vw;
+    width: 22vw;
+    height: 30vw;
 }
 .contact {
     display: table;
