@@ -114,7 +114,7 @@ document.body.appendChild(newElement);
       width: 15vw;
       border-radius: 20vw;
     }
-    
+
   </style>
 </head>
 <body>
