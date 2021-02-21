@@ -69,7 +69,7 @@ document.body.addEventListener('load', contact());
 
 var aboutMeArray = [{
         title: "Video games",
-        image: "pics/about/jungle.PNG",
+        image: "pics/about/jungle.JPG",
         content: 'The two games I mainly play are League of Legends and Old School Runescape. Yes, the MMORPG that everyone played on Miniclip when they were little is still a game people play today. Have been playing since 2006. \
         I run a clan on the Old School server version of it and play with buddies of mine and do events and more when I have free time. I have been playing League of Legends since Season 3 (2012), \
         my freshman year of high school. Started playing with my buddy, Matthew, and then moved on to playing with more friends throughout the years. Even tried to go pro at one point then decided against it later in life. \
