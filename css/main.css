@@ -193,11 +193,18 @@ a {
     margin: 0vw 0vw 0vw 0vw;
 }
 .contactbox h2 {
+    margin: 0vw 0vw 0vw 0vw;
     color: rgb(0, 98, 255);
 }
 .contact {
-    margin: -16vw 0vw 0vw 29vw;
+    margin: -13vw 0vw 0vw 29vw;
     color: rgb(0, 98, 255);
+}
+.contactbox p {
+    margin: -2vw 0vw 0vw 15vw;
+}
+.contactbox p:first-of-type {
+    margin: 0vw 10vw 0vw 0vw;
 }
 /*professional start*/
 .prof-content {
