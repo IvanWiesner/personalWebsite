@@ -133,7 +133,7 @@ body {
 .hobbies {
     display: table;
     padding: 5vw;
-    margin: 0vw 0vw 0vw 1vw;
+    margin: 10vw 0vw 0vw 1vw;
 }
 .contentbox {
     display: table-cell;
@@ -142,6 +142,7 @@ body {
     margin: 1vw 1vw 1vw 1vw;
     text-align: center;
     width: 33%;
+    background-color: rgba(136, 124, 124, 0.5);
 }
 .contentbox h2 {
     color: rgb(0, 98, 255);
@@ -150,6 +151,13 @@ body {
 }
 .contentbox p {
     color:rgb(0, 0, 0);
+}
+.contentbox img {
+    height: 10vw;
+    width: 20vw;
+}
+.bio {
+    background-color: rgba(136, 124, 124, 0.5);
 }
 .biocontentbox {
     text-align: center;
@@ -165,12 +173,15 @@ body {
 .biocontentbox p {
     font-size: 2vw;
     color:rgb(0, 0, 0);
-    margin: -35vw 17vw 15vw 28vw;
+    margin: -35vw 5vw 15vw 28vw;
 }
 .biocontentbox img {
     margin: -5vw 70vw 10vw 0vw;
     width: 22vw;
     height: 30vw;
+}
+a {
+    margin: 0vw 0vw 0vw 52vw;
 }
 .contact {
     display: table;
@@ -178,16 +189,15 @@ body {
 .contactbox {
     display: inline-block;
     display: table-caption;
-    font-size: .5vw;
+    font-size: .8vw;
     margin: 0vw 0vw 0vw 0vw;
 }
 .contactbox h2 {
     color: rgb(0, 98, 255);
 }
 .contact {
-    margin: -18vw 0vw 0vw 0vw;
+    margin: -16vw 0vw 0vw 29vw;
     color: rgb(0, 98, 255);
-
 }
 /*professional start*/
 .prof-content {
