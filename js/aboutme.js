@@ -24,7 +24,7 @@ function bio() {
         allElements.appendChild(bioContent);
     };
 
-    document.body.appendChild(allElements);
+    document.body.appendChild(allElements); 
 }
 
 document.body.addEventListener('load', bio());
