@@ -38,7 +38,7 @@ var contactArray = [{
 },
 {
     header: "",
-    content: '',
+    content: 's', 
 }
 ];
 
