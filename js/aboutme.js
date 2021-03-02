@@ -32,7 +32,7 @@ var contactArray = [{
     header: "Contact Info",
     content: 'Cell-(720)648-7698',
 },
-{
+{ 
     header: "",
     content: 'Email-Ivanwiesner@gmail.com',
 },
