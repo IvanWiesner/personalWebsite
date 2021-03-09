@@ -85,3 +85,21 @@ document.body.appendChild(newElement);
   //<input type="email" placeholder="Your email">
   //<input type="submit">
 //</body>
+
+// ARROW FUNCTIONS //
+
+function multiplyBy2(input) { return input * 2; }
+
+const multiplyBy2 = (input) => { return input*2 }
+//peramiter name is input//
+//declare function and multiplly it by 2 and there is no change//
+const multiplyBy2 = (input) => input*2
+
+const multiplyBy2 = input => input*2 
+ 
+const output = multiplyBy2(3) //6
+//read out//
+// the constant output running the function multiplyBy2 execution contenxt//
+//left side- return input by 2 
+//^ 3*2
+// 6
