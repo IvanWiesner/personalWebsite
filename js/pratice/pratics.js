@@ -101,5 +101,5 @@ const output = multiplyBy2(3) //6
 //read out//
 // the constant output running the function multiplyBy2 execution contenxt//
 //left side- return input by 2 
-//^ 3*2
+//^ 3*2 
 // 6
