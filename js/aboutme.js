@@ -39,7 +39,7 @@ var contactArray = [{
 {
     header: "",
     content: '', 
-}
+} 
 ];
 
 function contact() {
