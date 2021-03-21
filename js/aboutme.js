@@ -37,7 +37,7 @@ var contactArray = [{
     content: 'Email-Ivanwiesner@gmail.com',
 },
 {
-    header: "",
+    header: "", 
     content: '', 
 } 
 ];
