@@ -21,7 +21,7 @@ function initNavBar() {
 // document.getElementById("educ-button").addEventListener('click',function() {
 //     var navItems = document.querySelectorAll("navItem");
 //     for (var i = 0; i < navItems.length; i++) {
-//         navItems[i].classList.remove('clicked-on');
+//         navItems[i].classList.remove('clicked-on'); ff
 //     }
 //     this.classList.add('clicked-on');
 // });
